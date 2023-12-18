@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyborg Gaming</title>
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font Awsome  -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Lexend:wght@300;400;700;800&family=Mukta:wght@300;400;500;700;800&family=Mulish:wght@200;300;400;600;800&family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,900&family=Rubik:ital,wght@0,300;0,500;1,600&family=Work+Sans:wght@200;300;400;500;600&family=Ysabeau+Infant:wght@200;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- cdn tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- swper js  -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <!-- start nav bar section  -->
+        <div class="nav flex items-center justify-between p-6">
+            <a href="index.html"><img  src="images/logo.png" alt="" class="logo relative"></a>
+            <div class="form relative">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Type Something" class="p-2">
+            </div>
+                <ul class="links flex">
+                    <li class="ml-5 text-sm"><a href="index.html">Home</a></li>
+                    <li class="ml-5 text-sm"><a href="browse.html">Browse</a></li>
+                    <li class="ml-5 text-sm"><a href="details.html">Details</a></li>
+                    <li class="ml-5 text-sm"><a href="streams.html">Streams</a></li >
+                    <li class="ml-5 text-sm"><a href="Profile.html">Profile</a></li >
+                </ul>
+                <a href="profile.html" class="profile flex items-center">
+                    <span class="text-base text-slate-200 mr-2">Profile</span>
+                    <img src="images/profile-header.jpg" alt="" class="w-8 h-8 rounded-full">
+                </a>
+            <i class="fa-solid fa-bars open  cursor-pointer"></i>
+            <i class="fa-solid fa-xmark close cursor-pointer"></i>
+        </div>
+    <!-- start nav bar section  -->
+
+    <!-- start Feature section  -->
+    <div class="feature">
+        <div class="contaneir h-auto relative rounded-xl">
+            <h1 class=" text-white text-xl">Featured <span class="text-pink-500">Game</span></h1>
+            <div class="feature-box">
+                
+            <div class="box-left flex items-center justify-center gap-8 rounded-xl">
+            <div class="box">
+                <div class="image">
+                    <img src="images/featured-01.jpg" alt="" class="rounded-3xl relative">
+                </div>
+                <div class="details flex items-center mb-2 mt-2">
+                    <h5 class="text-white font-bold mr-2">Cs-Go</h5>
+                    <div class="icon">
+                        <i class="fa-solid fa-star text-yellow-400"></i>
+                        <span class="text-white">4.8</span>
+                    </div>
+                </div>
+                <div class="details details flex items-center">
+                    <h5 class="text-gray-500 mr-2">243k Download</h5>
+                    <div class="icon flex gap-1">
+                    <i class="fa-solid fa-download text-pink-600"></i>
+                    <span class="text-white">2.3M</span>
+                </div>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/featured-02.jpg" alt="" class="rounded-3xl relative">
+                    </div>
+                <div class="details flex items-center mb-2 mt-2">
+                        <h5 class="text-white font-bold mr-2">Gamezer</h5>
+                    <div class="icon">
+                        <i class="fa-solid fa-star text-yellow-400"></i>
+                        <span class="text-white">4.8</span>
+                    </div>
+                </div>
+                <div class="details details flex items-center">
+                    <h5 class="text-gray-500 mr-2">243k Download</h5>
+                    <div class="icon icon flex gap-1">
+                    <i class="fa-solid fa-download text-pink-600"></i>
+                    <span class="text-white">2.3M</span>
+                </div>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/featured-03.jpg" alt="" class="rounded-3xl relative">
+                    </div>
+                <div class="details flex items-center mb-2 mt-2">
+                        <h5 class="text-white font-bold mr-2">Island Rusty</h5>
+                    <div class="icon">
+                        <i class="fa-solid fa-star text-yellow-400"></i>
+                        <span class="text-white">4.8</span>
+                    </div>
+                </div>
+                <div class="details details flex items-center">
+                    <h5 class="text-gray-500 mr-2">243K Download</h5>
+                    <div class="icon flex gap-1">
+                    <i class="fa-solid fa-download text-pink-600"></i>
+                    <span class="text-white">2.3M</span>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="box-right rounded-xl">
+                <h1 class="p-2 text-white text-xl">Top <span class="text-pink-500">Downloaded</span></h1>
+                <div class="parent flex items-center gap-3">
+                    <div class="imga">
+                        <img src="images/featured-01.jpg" alt="" class="w-16 h-16 rounded-lg ">
+                    </div>
+                <div class="details mb-2 mt-2">
+                    <div class="text">
+                        <h5 class="text-white font-bold">Fortnite</h5>
+                        <p class=" text-gray-500">Sandbox</p>
+                    </div>
+                    <div class="icons flex items-center">
+                        <div class="icon mr-2">
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <span class="text-white">4.8</span>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-download text-pink-600"></i>
+                            <span class="text-white">2.3M</span>
+                        </div>
+                </div>
+                    <div class="download">
+                        <i class="fa-solid fa-download text-pink-600"></i>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="parent flex items-center gap-3">
+                    <div class="imga">
+                        <img src="images/featured-02.jpg" alt="" class="w-16 h-16 rounded-lg ">
+                    </div>
+                <div class="details mb-2 mt-2">
+                    <div class="text">
+                        <h5 class="text-white font-bold">Fortnite</h5>
+                        <p class=" text-gray-500">Sandbox</p>
+                    </div>
+                    <div class="icons flex items-center">
+                        <div class="icon mr-2">
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <span class="text-white">4.8</span>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-download text-pink-600"></i>
+                            <span class="text-white">2.3M</span>
+                        </div>
+                </div>
+                    <div class="download absolute right-14">
+                        <i class="fa-solid fa-download text-pink-600"></i>
+                    </div>
+                </div>
+                </div>
+
+                <div class="parent flex items-center gap-3">
+                    <div class="imga">
+                        <img src="images/featured-03.jpg" alt="" class="w-16 h-16 rounded-lg ">
+                    </div>
+                <div class="details mb-2 mt-2">
+                    <div class="text">
+                        <h5 class="text-white font-bold">Fortnite</h5>
+                        <p class=" text-gray-500">Sandbox</p>
+                    </div>
+                    <div class="icons flex items-center">
+                        <div class="icon mr-3">
+                            <i class="fa-solid fa-star text-yellow-400"></i>
+                            <span class="text-white">4.8</span>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-download text-pink-600"></i>
+                            <span class="text-white">2.3M</span>
+                        </div>
+                </div>
+                    <div class="download absolute right-14">
+                        <i class="fa-solid fa-download text-pink-600"></i>
+                    </div>
+                </div>
+                </div>
+                <a href="Profile.html" class="btn">Viwe All Gameing</a>
+            </div>
+
+        </div>
+
+        <!-- start live stream section  -->
+        <div class="live-stream pt-10 pb-10">
+            <h2 class="text-center text-white text-3xl mb-4">How to Start <span class="text-pink-500">live Stream</span></h2>
+            <div class="box-live">
+                <div class="box">
+                    <img src="images/service-01.jpg" alt="" class="rounded-full mb-2">
+                    <div class="text">
+                        <h2 class="text-white mb-2 font-bold">Go To Your Profile</h2>
+                        <p>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.</p>
+                    </div>
+                </div>
+                <div class="box ">
+                    <img src="images/service-02.jpg" alt="" class="rounded-full mb-2">
+                    <div class="text">
+                        <h2 class="text-white mb-2 font-bold">Live Stream Button</h2>
+                        <p>If you wish to support us, you can make a small contribution via PayPal to info [at] templatemo.com</p>
+                    </div>
+                </div>
+                <div class="box ">
+                    <img src="images/service-03.jpg" alt="" class="rounded-full mb-2">
+                    <div class="text">
+                        <h2 class="text-white mb-2 font-bold">You Are Live</h2>
+                        <p>You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="Profile.html" class="btn">Go To Profile</a>
+        </div>
+        <!-- end live stream section  -->
+
+        <!-- start most popular section  -->
+        <div class="popular-sec">
+            <h1 class=" text-white text-3xl text-center mb-5">Most Popular <span class="text-pink-500">live stream</span></h1>
+            <div class="pop-box grid grid-cols-4 gap-2">
+                <div class="boxes">
+                    <img src="images/stream-01.jpg" alt="" class="rounded-xl">
+                    <div class="details flex items-center gap-2 mt-3">
+                        <div class="imag">
+                            <img src="images/avatar-01.jpg" alt="" class="rounded-full">
+                        </div>
+                        <div class="text">
+                            <button class="bg-pink-500 w-5 h-5 rounded-full relative"><i class="fa-solid fa-check text-white"></i></button>
+                            <span class="text-pink-500 ml-2">KenganC</span>
+                            <h3 class="text-white font-bold">Just Talking With Fans</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <img src="images/stream-02.jpg" alt="" class="rounded-xl">
+                    <div class="details flex items-center gap-2 mt-3">
+                        <div class="imag">
+                            <img src="images/avatar-02.jpg" alt="" class="rounded-full">
+                        </div>
+                        <div class="text">
+                            <button class="bg-pink-500 w-5 h-5 rounded-full relative"><i class="fa-solid fa-check text-white"></i></button>
+                            <span class="text-pink-500 ml-2">LunaMa</span>
+                            <h3 class="text-white font-bold">CS-GO 36 Hours Live Stream</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <img src="images/stream-03.jpg" alt="" class="rounded-xl">
+                    <div class="details flex items-center gap-2 mt-3">
+                        <div class="imag">
+                            <img src="images/avatar-03.jpg" alt="" class="rounded-full">
+                        </div>
+                        <div class="text">
+                            <button class="bg-pink-500 w-5 h-5 rounded-full relative"><i class="fa-solid fa-check text-white"></i></button>
+                            <span class="text-pink-500 ml-2">Areluwa</span>
+                            <h3 class="text-white font-bold">Maybe Nathej Allnight Chillin'</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <img src="images/stream-04.jpg" alt="" class="rounded-xl">
+                    <div class="details flex items-center gap-2 mt-3">
+                        <div class="imag">
+                            <img src="images/avatar-04.jpg" alt="" class="rounded-full">
+                        </div>
+                        <div class="text">
+                            <button class="bg-pink-500 w-5 h-5 rounded-full relative"><i class="fa-solid fa-check text-white"></i></button>
+                            <span class="text-pink-500 ml-2">GangTm</span>
+                            <h3 class="text-white font-bold">Live Streaming Till Morning</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="streams.html" class="btn">Discover All Streams</a>
+        </div>
+        <!-- end most popular section  -->
+        </div>
+        </div>
+    <!-- end Feature section  -->
+
+    <!-- start footer section  -->
+        <div class="footer">
+            <div class="text">
+                <p>Made By shreif yaser.</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/sherif.yaser.3?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/_shreifyaser?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    <!-- end footer section  -->
+
+    <!-- main js  -->
+    <script src="js/main.js"></script>
+    <!-- swper js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
