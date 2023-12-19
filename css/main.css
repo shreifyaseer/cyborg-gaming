@@ -196,6 +196,12 @@ a{
         font-size:23px ;
     }
 }
+@media (min-width:600px) {
+    .cyborg-home .contaneir .header .text{
+        margin-left: 40px;
+    }
+}
+
 @media (max-width:400px) {
     .cyborg-home .contaneir .header{
         padding-bottom: 300px;
@@ -204,7 +210,7 @@ a{
         display: none;
     }
     .cyborg-home .contaneir .header .text {
-        margin-right: 30px;
+        margin-right: 64px;
         text-align: center;
     }
 }
