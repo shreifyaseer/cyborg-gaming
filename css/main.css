@@ -177,6 +177,11 @@ a{
         border-bottom: 1px solid #eee;
         padding-bottom: 20px;
     }
+    @media (max-width:600px) {
+        .nav .links{
+            right: 16px;
+        }
+    }
 /* end navBar madia*/
 }
 /* start contaneir header  */
@@ -199,7 +204,7 @@ a{
         display: none;
     }
     .cyborg-home .contaneir .header .text {
-        margin: auto;
+        margin-right: 30px;
         text-align: center;
     }
 }
@@ -645,9 +650,16 @@ a{
     flex-basis: 40%;
 }
 /* madia screen*/
-@media (max-width:442px) {
-    .streams .contaneir .box-right .box{
-        flex-wrap: wrap ;
+@media (max-width:600px) {
+    .streams .contaneir .box-right .box > div{
+        flex-direction: column;
+        text-align: center;
+    }
+    .streams .contaneir .box-right .box > div span,
+    .streams .contaneir .box-right .box > div img,
+    .streams .contaneir .box-right .box > div button,
+    .streams .contaneir .box-right .box > div span{
+        margin-bottom: 10px;
     }
 }
 /* madia screen*/
